@@ -11,15 +11,15 @@ export default {
       },
 
       colors: {
-        'background': '#0f0e17',
+        'background': '#232946',
         'headline' : '#fffffe',
-        'paragraph': '#a7a9be',
-        'button' : '#ff8906',
-        'buttontext' : '#fffffe',
-        'stroke' : 'black',
-        'highlight' : '#ff8906',
-        'secondary' : '#f25f4c',
-        'tertiary' : '#e53170',
+        'paragraph': '#b8c1ec',
+        'button' : '#eebbc3',
+        'buttontext' : '#232946',
+        'stroke' : '#121629',
+        'highlight' : '#eebbc3',
+        'secondary' : '#fffffe',
+        'tertiary' : '#eebbc3',
       }
     },
   },
