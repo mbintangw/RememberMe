@@ -1,14 +1,11 @@
-import { TbTargetArrow } from "react-icons/tb";
-import { LuCalendarClock } from "react-icons/lu";
-import { FaRegCircleCheck } from "react-icons/fa6";
+import { ListType } from "../types/ListType";
+import TaskCard from "./TaskCard";
 
-
-const TaskList = () => {
+const TaskList = ({ title, icon }: ListType) => {
   return (
-    <main className="flex flex-wrap justify-evenly items-center">
-      <section className="flex items-center gap-3"> <TbTargetArrow /> To do</section>
-      <section className="flex items-center gap-3"><LuCalendarClock />Due Date</section>
-      <section className="flex items-center gap-3"><FaRegCircleCheck />Completed</section>
+    <main className="w-1/3 flex flex-col items-center gap-20 ">
+      <h2 className="flex gap-2 items-center text-white text-2xl">{icon} {title}</h2>
+      <TaskCard />
     </main>
   )
 }
